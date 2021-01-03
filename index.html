@@ -9,49 +9,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Mareboina Ravi | Portfolio &amp; Fresher</title>
-    <meta name="description" content="Thanks for Searching me on google Mareboina Ravi, I am Recent Graduate from SIET in Computer Science Stream This is my Portfolio in this website I am showcase my Projects my certifications and My education Details. Hi! Everyone, Thank you for searching me on Google. Myself Ravi. I'm a Software Engineer, Developer & Problem Solver. Take a look at my Portfolio.">
-    <meta name="keywords" content="mareboinaravi, MareboinaRavi,RaviMareboina, Mareboina Ravi,ravi,raviwebsite,raviyadav,web design tutorials, learn web development">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <meta
+      name="description"
+      content="Thanks for Searching me on google Mareboina Ravi, I am Recent Graduate from SIET in Computer Science Stream This is my Portfolio in this website I am showcase my Projects my certifications and My education Details. Hi! Everyone, Thank you for searching me on Google. Myself Ravi. I'm a Software Engineer, Developer & Problem Solver. Take a look at my Portfolio."
+    />
+    <meta
+      name="keywords"
+      content="mareboinaravi, MareboinaRavi,RaviMareboina, Mareboina Ravi,ravi,raviwebsite,raviyadav,web design tutorials, learn web development"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- Body section starts -->
-  <body>
+  <body onload="loadfun()">
+    <div id="loading"></div>
     <div class="container">
+    <div>
+  <label id="d-c"> </label>
+  </div>
       <header id="main-header">
         <div class="row no-gutters">
           <div class="col-lg-4 col-md-4">
-            <img src="img/mypic1.jpg" class="img-fluid" alt="my picture">
+            <img src="img/mypic1.jpg" class="img-fluid" alt="my picture" />
           </div>
           <div class="col-lg-8 col-md-8">
             <div class="d-flex flex-column">
               <div class="p-5 bg-dark text-white">
-                <div class="d-flex flex-row justify-content-between align-items-center">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
                   <h1 class="display-4">Ravi</h1>
                   <div class="d-none d-md-block">
-                    <a target="_blank" href="https://www.linkedin.com/in/ravimareboina/" class="text-white">
-                    <i class="fab fa-linkedin"></i>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/ravimareboina/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-linkedin"></i>
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="https://www.facebook.com/ravi.naani.775" class="text-white">
-                    <i class="fab fa-facebook"></i>
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/ravi.naani.775"
+                      class="text-white"
+                    >
+                      <i class="fab fa-facebook"></i>
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="https://www.instagram.com/ravi.naani/" class="text-white">
-                    <i class="fab fa-instagram"></i>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/ravi.naani/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-instagram"></i>
                     </a>
                   </div>
                   <div>
-                    <a target="_blank" href="https://github.com/MareboinaRavi/" class="text-white">
-                    <i class="fab fa-github"></i>
+                    <a
+                      target="_blank"
+                      href="https://github.com/MareboinaRavi/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-github"></i>
                     </a>
                   </div>
                 </div>
@@ -60,20 +100,38 @@
                 Recent Graduate.Who Wants to learn Full-Stack Web Developement.
               </div>
               <div>
-                <div class="d-flex flex-row text-white align-items-stretch text-center">
-                  <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
                     <i class="fas fa-home fa-2x d-block"></i>
                     <span class="d-none d-sm-block">Home</span>
                   </div>
-                  <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
                     <i class="fas fa-graduation-cap fa-2x d-block"></i>
                     <span class="d-none d-sm-block">Education</span>
                   </div>
-                  <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
                     <i class="fas fa-folder-open fa-2x d-block"></i>
-                    <span class="d-none d-sm-block">Cirtificates</span>
+                    <span class="d-none d-sm-block">Certificates</span>
                   </div>
-                  <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
                     <i class="fas fa-envelope fa-2x d-block"></i>
                     <span class="d-none d-sm-block">Contact</span>
                   </div>
@@ -85,69 +143,97 @@
       </header>
       <!-- HOME Section -->
       <div id="home" class="collapse show">
-        <div class="card card-body bg-primary text-white py-5">
+        <div id="card"  class="card card-body bg-primary text-white py-5">
           <h2>Welcome To My Page</h2>
-          <p class="lead">I am a Computer science student and junior Web developer.Here I mentioned some of my skills</p>
+          <p class="lead">
+            I am a Computer science student and junior Web developer.Here I
+            mentioned some of my skills
+          </p>
         </div>
-        <div class="card card-body py-5">
+        <div id="card" class="card card-body py-5">
           <h3>My Skills</h3>
-          <p>"It is possible to fly without motors, but not without knowledge and skill."</p>
+          <p>
+            "It is possible to fly without motors, but not without knowledge and
+            skill."
+          </p>
           <p><b>-Wilbur Wright</b></p>
-          <hr>
+          <hr />
           <h4>HTML 5</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:80%"></div>
+            <div
+              class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+              style="width: 80%"
+            ></div>
           </div>
           <h4>CSS 3</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:65%"></div>
+            <div
+              class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+              style="width: 65%"
+            ></div>
           </div>
           <h4>JavaScript</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:40%"></div>
+            <div
+              class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+              style="width: 40%"
+            ></div>
           </div>
           <h4>PHP</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:80%"></div>
+            <div
+              class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+              style="width: 80%"
+            ></div>
           </div>
           <h4>Python</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width:50%"></div>
+            <div
+              class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
+              style="width: 50%"
+            ></div>
           </div>
           <h4>C</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:60%"></div>
+            <div
+              class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+              style="width: 60%"
+            ></div>
           </div>
           <h4>Java</h4>
           <div class="progress mb-3">
-            <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width:60%"></div>
+            <div
+              class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+              style="width: 60%"
+            ></div>
           </div>
         </div>
       </div>
       <!-- RESUME Section -->
       <div id="resume" class="collapse">
-        <div class="card card-body bg-success text-white py-5">
+        <div id="card" class="card card-body bg-success text-white py-5">
           <h2>My Education</h2>
-          <p class="lead">"Education is the most powerful weapon which you can use to change the World."</p>
+          <p class="lead">
+            "Education is the most powerful weapon which you can use to change
+            the World."
+          </p>
           <p><b>Nelson Mandela</b></p>
         </div>
-        <div class="card card-body py-5">
-          <h3>Where Have I Studied..?</h3>
+        <div id="card"  class="card card-body py-5">
+          <h3>Where I have Studied..?</h3>
           <p>Here is the information where I have completed my Education.</p>
           <div class="card-deck">
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">10th (SSC)</h4>
-                <p class="card-text">Board Of Secondary Education,Andhra Pradesh.</p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  School Name: ZPHS,Mangalagudem. 
+                <p class="card-text">
+                  Board Of Secondary Education,Andhra Pradesh.
                 </p>
                 <p class="p-2 mb-3 bg-dark text-white">
-                  Syllabus: State 
+                  School Name: ZPHS,Mangalagudem.
                 </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  CGPA: 9.2/10
-                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Syllabus: State</p>
+                <p class="p-2 mb-3 bg-dark text-white">CGPA: 9.2/10</p>
               </div>
               <div class="card-footer">
                 <h6 class="text-muted">Year: 2013 - 2014</h6>
@@ -156,16 +242,14 @@
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">Intermediate</h4>
-                <p class="card-text">Board of Intermediate Education,Telangana.</p>
+                <p class="card-text">
+                  Board of Intermediate Education,Telangana.
+                </p>
                 <p class="p-2 mb-3 bg-dark text-white">
                   College Name: Lotus Junior college.
                 </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  specialization: MPC.
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Percentage: 95%
-                </p>
+                <p class="p-2 mb-3 bg-dark text-white">specialization: MPC.</p>
+                <p class="p-2 mb-3 bg-dark text-white">Percentage: 95%</p>
               </div>
               <div class="card-footer">
                 <h6 class="text-muted">Year: 2014 - 2016</h6>
@@ -174,16 +258,16 @@
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">B.tech</h4>
-                <p class="card-text">Jawaharlal Nehru Technological University,Hydrebad</p>
+                <p class="card-text">
+                  Jawaharlal Nehru Technological University,Hydrebad
+                </p>
                 <p class="p-2 mb-3 bg-dark text-white">
                   Siddhartha Institute of engineering and technology.
                 </p>
                 <p class="p-2 mb-3 bg-dark text-white">
                   specialization: CSE(ComputerScience)
                 </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  CGPA: 7.8/10
-                </p>
+                <p class="p-2 mb-3 bg-dark text-white">CGPA: 7.8/10</p>
               </div>
               <div class="card-footer">
                 <h6 class="text-muted">Year: 2016 - 2020</h6>
@@ -194,59 +278,64 @@
       </div>
       <!-- WORK Section -->
       <div id="work" class="collapse">
-        <div class="card card-body bg-warning text-white py-5">
-          <h2>Cirtificates</h2>
-          <p class="lead">“Don't find your certificate in the worth, find your worth in the certificate”</p>
+        <div id="card" class="card card-body bg-warning text-white py-5">
+          <h2>Certificates</h2>
+          <p class="lead">
+            “Don't find your certificate in the worth, find your worth in the
+            certificate”
+          </p>
           <p><b>-unknown</b></p>
         </div>
-        <div class="card card-body py-5">
+        <div id="card"  class="card card-body py-5">
           <h3>What I Get?</h3>
-          <p>Here I mention some of my cirtificates from <b>Udemy</b> and <b>Edounix</b>.</p>
+          <p>
+            Here I mention some of my certificates from <b>Udemy</b> and
+            <b>Edounix</b>.
+          </p>
           <div class="row no-gutters">
             <div class="col-md-6">
-              <img src="img/c1.jpg" alt="certificate-1 " class="img-fluid">
+              <img src="img/c1.jpg" alt="certificate-1 " class="img-fluid" />
             </div>
             <div class="col-md-6">
-              <img src="img/c2.jpg" alt="certificate-2" class="img-fluid">
+              <img src="img/c2.jpg" alt="certificate-2" class="img-fluid" />
             </div>
           </div>
           <div class="row no-gutters">
             <div class="col-md-6">
-              <img src="img/c3.jpg" alt="certificate-3 " class="img-fluid">
+              <img src="img/c3.jpg" alt="certificate-3 " class="img-fluid" />
             </div>
             <div class="col-md-6">
-              <img src="img/c4.jpg" alt="certificate-4 " class="img-fluid">
+              <img src="img/c4.jpg" alt="certificate-4 " class="img-fluid" />
             </div>
           </div>
-          
-          <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="img/c5.jpg" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-          	<img src="img/c6.jpg" class="img-fluid">
-          </div>
-        </div>
 
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="img/c7.jpg" class="img-fluid">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="img/c5.jpg" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+              <img src="img/c6.jpg" class="img-fluid" />
+            </div>
           </div>
-          <div class="col-md-6">
-          	<img src="img/c8.jpg" class="img-fluid">
+
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="img/c7.jpg" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+              <img src="img/c8.jpg" class="img-fluid" />
+            </div>
           </div>
-        </div>
-          
         </div>
       </div>
       <!-- CONTACT Section -->
       <div id="contact" class="collapse">
-        <div class="card card-body bg-danger text-white py-5">
+        <div id="card" class="card card-body bg-danger text-white py-5">
           <h2>Contact</h2>
           <p class="lead">For More Details Contact me</p>
           <p class="lead">Using the following form</p>
         </div>
-        <div class="card card-body py-5">
+        <div id="card"  class="card card-body py-5">
           <h3>Get In Touch</h3>
           <p>Name,E-mail,Message Not a Big Deal...</p>
           <form>
@@ -254,55 +343,106 @@
               <div class="input-group input-group-lg">
                 <div class="input-group-prepend">
                   <span class="input-group-text bg-danger text-white">
-                  <i class="fas fa-user"></i>
+                    <i class="fas fa-user"></i>
                   </span>
                 </div>
-                <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                />
               </div>
             </div>
             <div class="form-group">
               <div class="input-group input-group-lg">
                 <div class="input-group-prepend">
                   <span class="input-group-text bg-danger text-white">
-                  <i class="fas fa-envelope"></i>
+                    <i class="fas fa-envelope"></i>
                   </span>
                 </div>
-                <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="Email"
+                />
               </div>
             </div>
             <div class="form-group">
               <div class="input-group input-group-lg">
                 <div class="input-group-prepend">
                   <span class="input-group-text bg-danger text-white">
-                  <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-pencil-alt"></i>
                   </span>
                 </div>
-                <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                <textarea
+                  class="form-control bg-dark text-white"
+                  placeholder="Message"
+                ></textarea>
               </div>
             </div>
-            <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-danger btn-block btn-lg"
+            />
           </form>
         </div>
       </div>
       <!-- FOOTER Section -->
       <footer id="main-footer" class="p-5 bg-dark text-white">
         <div class="row">
-          <div class="col-md-6">
-            <a target="target" href="https://drive.google.com/file/d/1n7GSDrHKK_UHdiXjeDWS5YNKDS5IyP5y/view?usp=sharing" class="btn btn-outline-light">
-            <i class="fas fa-cloud"></i> Download Resume
+          <div class="col-md-6 col-sm-3">
+            <a
+              target="target"
+              href="https://drive.google.com/file/d/1n7GSDrHKK_UHdiXjeDWS5YNKDS5IyP5y/view?usp=sharing"
+              class="btn btn-outline-light"
+            >
+              <i class="fas fa-cloud"></i> Download Resume
             </a>
+           
+          </div>
+          <div class="col-md-6 col-sm-3">
+            <input type="button" class="btn btn-outline-light"  value="Dark Mode">
           </div>
         </div>
       </footer>
     </div>
     <!--  javascript cdn -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script>
-      $('.port-item').click(function () {
-        $('.collapse').collapse('hide');
+      $(".port-item").click(function () {
+        $(".collapse").collapse("hide");
       });
     </script>
+    <script>
+      var preloader = document.getElementById("loading");
+      function loadfun() {
+        preloader.style.display = "none";
+      };
+    </script>
+    <script>
+    var content = document.getElementsByTagName('body')[0];
+    var dm = document.getElementById('d-c');
+    dm.addEventListener('click',function(){
+      dm.classList.toggle('active');
+      content.classList.toggle('night');
+      document.querySelectorAll('card').style.background = black;
+    });
+    </script>
+
   </body>
 </html>

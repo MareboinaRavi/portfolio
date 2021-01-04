@@ -1,3 +1,43 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url(Infinity-1s-200px.gif) no-repeat center;
+  z-index: 99999;
+}
+
+label{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 20px;
+  top: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+label:before{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* right: 1px; */
+  left: 1px;
+  content: "";
+  /* top: 20px; */
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+label.active:before{
+  left: 24px;
+  background:#fff;
+}
+
+body.night{
+  background: black;
+  color: darkviolet;
+}
+
 #main-header img {
   width: 100%;
   height: 100%;
@@ -13,8 +53,8 @@
 }
 
 .bg-black {
-  color: #fff;
-  background: #000;
+  color: rgb(255, 255, 255);
+  background: rgb(19, 1, 1);
 }
 
 @media (min-width: 1199px) {
